@@ -30,12 +30,12 @@ Prime Movie App is a responsive web application built with React that allows use
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/username/repo-name.git
+git clone https://github.com/sjyadav07/primeview.git
 Navigate to the project folder:
 
 bash
 Copy code
-cd repo-name
+cd primeview
 Install dependencies:
 
 bash
@@ -58,7 +58,7 @@ Click on a movie card to see detailed information
 Folder Structure
 pgsql
 Copy code
-prime-movie-app/
+primeview/
 ├── public/
 ├── src/
 │   ├── components/  # Reusable components like Navbar, MovieCard
@@ -79,4 +79,5 @@ Make your changes and commit (git commit -m "Add new feature")
 Push to your branch (git push origin feature/YourFeature)
 
 Open a Pull Request
+
 ```
