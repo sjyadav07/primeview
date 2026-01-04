@@ -3,6 +3,7 @@ import { NavLink, useLoaderData } from "react-router-dom";
 import { FaPlay, FaInfoCircle, FaStar } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
 // Swiper CSS
 import "swiper/css";
@@ -26,7 +27,7 @@ const Home = () => {
           autoplay={{ delay: 5000, disableOnInteraction: false }}
           pagination={{ clickable: true }}
           navigation
-          className="w-full h-full"
+          className="w-full h-full relative"
         >
           {banners.map((banner) => (
             <SwiperSlide key={banner.id} className="relative">

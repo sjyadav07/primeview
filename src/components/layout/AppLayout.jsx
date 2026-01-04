@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import { Outlet, useNavigation } from "react-router-dom";
 import Footer from "./Footer";
@@ -15,10 +15,12 @@ const AppLayout = () => {
   if (navigation.state === "loading") return <Loading />;
   //=> state is a property which we got in "useNavigation()" and it's have 3 state idle,loading,submitting if loading then show loading we use to show the loading data
 
+  const [search, setSearch] = useState("");
+
   return (
     <>
-      <Header />
-      <Outlet />
+      <Header search={search} setSearch={setSearch} />
+      <Outlet context={{ search }} />
       <Footer />
     </>
   );

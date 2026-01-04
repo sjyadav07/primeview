@@ -46,12 +46,15 @@
 /* ===swiper=== */
 .swiper-button-next,
 .swiper-button-prev{
-  color: red !important;
+  height: 28px !important;
+  width: 28px !important;
+  color: whitesmoke !important;
+  
 }
 /* Pagination Dots (inactive) */
 .swiper-pagination-bullet {
-  width: 12px !important;
-  height: 12px !important;
+  width: 8px !important;
+  height: 8px !important;
   background-color: #b4b4b4ea !important;
   opacity: 1 !important;
 }
