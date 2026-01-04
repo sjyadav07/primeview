@@ -2,7 +2,7 @@
 
 **PrimeView** is a modern **React** web application styled with **TailwindCSS** that lets users browse movies in an OTT-style interface. The app fetches live movie data from a public API and showcases **featured banners**, **trending movies**, and interactive UI components.
 
-[🌐 Live Demo](https://prime-views.netlify.app)
+[🌐 Live Demo](https://myprimemovieapp.netlify.app)
 
 ---
 
